@@ -36,3 +36,108 @@
     transform: rotate(360deg);
   }
 }
+
+.HP1 {
+  text-decoration: none;
+  color: #282c34;
+}
+
+.header {
+  background-color: #61dafb;
+}
+
+.headerLink {
+  color: white;
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+.listItem {
+  display: flex;
+  padding: 20px;
+}
+
+.imgContainer {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemTextContainer {
+  text-align: left;
+  margin-left: 20px;
+  width: 60%;
+}
+
+.itemTextContainer h2 {
+  font-weight: 200;
+  color: #7c818b;
+}
+
+.itemTextContainer p {
+  font-weight: 400;
+  color: #7c818b;
+}
+
+.listLink {
+  text-decoration: none;
+  color: #282c34
+}
+
+.divTitles {
+  display: flex;
+  flex-direction: column;
+}
+
+.divTitles2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 20px;
+  text-align: left;
+}
+
+.detailsImg {
+  margin: 20px;
+}
+
+.formDiv form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formDiv input {
+  margin: 5px 20px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.formDiv label {
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.formDiv button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  margin-top: 20px;
+  background-color: #61dafb;
+  padding: 10px 50px;
+  border: 0;
+  border-radius: 10px;
+  text-align: left;
+  font-weight:900;
+  color: white;
+}
+
+.formLabel {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
